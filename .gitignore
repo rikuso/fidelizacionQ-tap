@@ -2,6 +2,5 @@ node_modules/
 dist/
 .env
 comida-736a2-firebase-adminsdk-jd3en-31dcd81178.json
-services/firebase.js
 esp32-89a05-firebase-adminsdk-fbsvc-90b3e44d90.json
 *.json
