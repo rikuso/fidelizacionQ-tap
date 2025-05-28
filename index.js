@@ -55,11 +55,11 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 // Rutas con versionado
-app.use('/api/v1/tags',           tagRoutes);
-app.use('/api/v1/events',         eventRoutes);
+app.use('/api/v1/tags',           tagRoutes);//implemetando esp32
+app.use('/api/v1/events',         eventRoutes);//implementado en el front
 app.use('/api/v1/stats',          statsRoutes);
-app.use('/api/v1/users',          userRoutes);
-app.use('/api/v1/clientes',       clientesRoutes);
+app.use('/api/v1/users',          userRoutes);//implementado en el front
+app.use('/api/v1/clientes',       clientesRoutes);//implementado en el front
 app.use('/api/v1/advanced-stats', advancedStatsRoutes);
 
 // 404 handler
